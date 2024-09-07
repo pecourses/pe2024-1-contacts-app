@@ -3,6 +3,28 @@ const { contactsController } = require('./controllers');
 
 const app = express();
 
+app.use(express.json());
+
+// app.get(
+//   '',
+//   () => {},
+//   () => {},
+//   () => {}
+// );
+
+// app.get(
+//   '/',
+//   (req, res, next) => {
+//     // основні дії
+//     console.log('validation');
+//     next();
+//   },
+//   (req, res, next) => {
+//     console.log('db');
+//     res.status(200).send();
+//   }
+// );
+
 // /contacts
 
 // GET http://localhost:5000/contacts?page=1&results=3
