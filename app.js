@@ -6,8 +6,6 @@ const app = express();
 
 app.use(express.json());
 
-// POST /login {email, password} -> {user} | error;
-// POST /signUp {name, email, password} -> {user} | error;
 app.post('/login', authController.login);
 app.post('/signUp', authController.signUp);
 
