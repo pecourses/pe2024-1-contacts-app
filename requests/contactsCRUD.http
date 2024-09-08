@@ -18,7 +18,7 @@ Content-Type: application/json
     "birthday": "2030-12-01"
 }
 
-###
+### 200
 GET http://localhost:5000/contacts?page=2&results=5
 
 ### 200
