@@ -20,6 +20,6 @@ app.patch(
 );
 app.delete('/contacts/:id', contactsController.deleteContactById);
 
-app.use(errorHandlers.errorHandler);
+app.use(errorHandlers.validationErrorHandler, errorHandlers.errorHandler);
 
 module.exports = app;
