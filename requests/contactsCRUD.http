@@ -32,7 +32,7 @@ PATCH http://localhost:5000/contacts/1
 Content-Type: application/json
 
 {
-  "name": "Test007777"
+  "name": "Testdwer"
 }
 
 ### 404
@@ -40,7 +40,15 @@ PATCH http://localhost:5000/contacts/1d5f45df4
 Content-Type: application/json
 
 {
-  "name": "Test007"
+  "name": "Test"
+}
+
+### 422
+PATCH http://localhost:5000/contacts/1d5f45df4
+Content-Type: application/json
+
+{
+  "name": "Test84854"
 }
 
 ### 204
